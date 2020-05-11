@@ -9,6 +9,15 @@
 
 </head>
 <body>
+	<h2>Registration Form</h2>
+	<s:form action="registerAction">
+		<s:textfield name="firstName" label="First Name: " />
+		<s:textfield name="lastName" label="Last Name: " />
+		<s:radio list="{'Male','Female'}" name="gender" label="Gender" />
+		<s:textfield name="age" label="Age: " />
+		<s:textfield name="email" label="Email: " />
+		<s:submit value="Register" />
+	</s:form>
 
 </body>
 </html>

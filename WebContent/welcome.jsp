@@ -9,13 +9,23 @@
 
 </head>
 <body>
-	<s:form action="registerAction">
-		<s:textfield name="firstName" label="First Name: "/>
-		<s:textfield name="lasttName" label="Last Name: "/>
-		<s:radio list="{'Male','Female'}" name="genderList" label="Gender"/>
-		<s:textfield name="age" label="Age: "/>
-		<s:textfield name="email" label="Email: "/>
-		<s:submit value="Register"/>
-	</s:form>
+
+	<h2>Welcome</h2>
+	<s:label value="First Name:" />
+	<s:property value="firstName"/><br/>
+	
+	<s:label  value="Last Name:"/>
+	<s:property value="lastName"/><br/>
+	
+	<s:label  value="Gender:"/>
+	<s:property value="gender"/><br/>
+	
+	<s:label  value="Age:"/>
+	<s:property value="age"/>
+	
+	<s:label  value="Email:"/>
+	<s:property value="email"/>
+
+
 </body>
 </html>

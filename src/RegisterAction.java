@@ -1,7 +1,7 @@
 
 public class RegisterAction {
 	
-}
+
 	String firstName;
 	String lastName;
 	String gender;
