@@ -40,6 +40,8 @@
 		</field-validator>
 	</field>
 
+<!-- Lengthy way -->
+	
 	<!--	<validator type="requiredstring">
 		<param name="fieldName">email</param>
 		<message>Email  is required</message>
@@ -49,6 +51,8 @@
 		<param name="fieldName">email</param>
 		<message>Email must be in proper format.</message>
 	</validator>-->
+
+<!-- Compact way -->
 
 	<field name="email">
 		<field-validator type="requiredstring">
