@@ -61,6 +61,7 @@ public class RegisterAction extends  ActionSupport {
 		this.email = email;
 	}
 //	
+	// Implementation available in RegisterAction-validation.xml
 //	public void validate() { 
 //		
 //		if(firstName.equals("")) {
